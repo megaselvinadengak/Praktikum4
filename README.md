@@ -36,3 +36,4 @@ for item in nilai:
     print("| {no:2d} | {nama:12s} | {nim:9s} | {nilaiTugas:5d} | {nilaiUTS:5d} | {nilaiUAS:5d} | {nilaiAKHIR:6.2f} |"
           .format(no=i, nama=item[0], nim=item[1], nilaiTugas=item[2], nilaiUTS=item[3], nilaiUAS=item[4], nilaiAKHIR=item[5]))
 print("======================================================================")
+
